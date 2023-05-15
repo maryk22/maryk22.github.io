@@ -47,14 +47,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: CSS
-    url: /css/
-  - title: Javaacirpt
-    url: /js/
+  # - title: CSS
+  #   url: /css/
+  # - title: Javaacirpt
+  #   url: /js/
   - title: Git
     url: /git/
-  - title: Etc
-    url: /etc/
+  # - title: Etc
+  #   url: /etc/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -286,7 +286,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink: /:name/:path
+    permalink: /:name/
     output: true
 
   featured_tags:
