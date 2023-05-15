@@ -7,7 +7,7 @@ permalink: '/:categories/:year/:month/:day/:title/'
 # published: false
 ---
 
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmaryk22%2Fmaryk22.github.io{{ page.url }}&count_bg=%237FB7F1&title_bg=%23555555&icon=bitrise.svg&icon_color=%23E7E7E7&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=false)
+{% include hits.md %}
 
 저는 테마중에 Hydejack이 한글에서 제일 가독성이 괜찮다고해서 해당 테마를 설치하였습니다.
 
