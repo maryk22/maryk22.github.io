@@ -5,7 +5,7 @@ title: '[GithubPages] 3. Jekyll Theme 적용 (Hydejack)'
 categories: git
 permalink: '/:categories/:year/:month/:day/:title/'
 # published: false
-comments: true
+# comments: true
 ---
 
 {% include hits.md %}

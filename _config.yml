@@ -172,7 +172,7 @@ google_analytics: ca-pub-8814623619448941
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
 disqus:
-  shortname: maryk22.github.io
+  shortname: https-maryk22-github-io-1
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
