@@ -7,7 +7,7 @@ permalink: '/:categories/:year/:month/:day/:title/'
 menu: git
 ---
 
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmaryk22%2Fmaryk22.github.io{{ page.permalink }}/&count_bg=%237FB7F1&title_bg=%23555555&icon=bitrise.svg&icon_color=%23E7E7E7&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=false)
+![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fmaryk22%2Fmaryk22.github.io{{ page.url }}&count_bg=%237FB7F1&title_bg=%23555555&icon=bitrise.svg&icon_color=%23E7E7E7&title=%EC%A1%B0%ED%9A%8C%EC%88%98&edge_flat=false)
 
 기술적인 부분을 기록으로 남기기 위해서 테그 블로그를 생성하려고 알아보는중 Github 블로그를 만들어보면 좋겠다고 생각하여 시작하게 되었습니다.
 이 글이 도움이 되길 바라면서 그럼 설치부터 시작합니다.
