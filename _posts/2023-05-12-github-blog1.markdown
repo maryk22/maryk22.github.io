@@ -4,7 +4,7 @@ title: '[GithubPages] 1. 깃허브블로그 만들기!'
 # date: "{{ 'now' | date: '%Y-%m-%d %H:%M:%S' }}"
 categories: git
 permalink: '/:categories/:year/:month/:day/:title/'
-menu: git
+comments: true
 ---
 
 {% include hits.md %}

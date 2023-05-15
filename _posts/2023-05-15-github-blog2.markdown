@@ -5,6 +5,7 @@ title: '[GithubPages] 2. Jekyll로 github blog 꾸미기'
 categories: git
 permalink: '/:categories/:year/:month/:day/:title/'
 # published: false
+comments: true
 ---
 
 {% include hits.md %}
