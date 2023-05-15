@@ -63,11 +63,11 @@ permalink: '/:categories/:year/:month/:day/:title/'
 - 게시물은 **연-월-일-카테고리이름-내용제목.md**를 기준으로 작성해야함
   ![_posts 작성방법](/assets/img/git/blog/blog_4_6.png '_posts 작성방법')
 
-layout : post이기 때문에 post 다른 레이아웃도 많음
-title : 포스트의 제목
-categories : 사이드바에 맞춰서 넣음
-permalink : 설정을 하지않을시 (git/2023-05-15-github-blog4/) URL이 통으로 나오는데 필자는 카테고리/년/월/일/제목(git/2023/05/15/github-blog4/)으로 바꾸고 싶어서 변경했음
-published : 아직 포스트를 올리고싶지않다면 false로 해당 포스트가 노출이 되지 않습니다.
+- layout : post이기 때문에 post 다른 레이아웃도 많음
+- title : 포스트의 제목
+- categories : 사이드바에 맞춰서 넣음
+- permalink : 설정을 하지않을시 (git/2023-05-15-github-blog4/) URL이 통으로 나오는데 필자는 카테고리/년/월/일/제목(git/- 2023/05/15/github-blog4/)으로 바꾸고 싶어서 변경했음
+- published : 아직 포스트를 올리고싶지않다면 false로 해당 포스트가 노출이 되지 않습니다.
 
 ### 5. logo 제작
 
