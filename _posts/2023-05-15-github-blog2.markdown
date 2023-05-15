@@ -61,7 +61,7 @@ Jekyll 설치부터 실행까지 해보겠습니다.
 
 ```
     bundle install
-    boundle exec jekyll serve
+    bundle exec jekyll serve
 ```
 
 ![로컬서버](/assets/img/git/blog/blog_2_1.png '로컬서버')
