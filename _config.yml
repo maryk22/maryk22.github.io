@@ -49,8 +49,8 @@ author:
 menu:
   # - title: CSS
   #   url: /css/
-  # - title: Javaacirpt
-  #   url: /js/
+  - title: Javaacirpt
+    url: /js/
   - title: Git
     url: /git/
   # - title: Etc

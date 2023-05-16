@@ -1,0 +1,36 @@
+---
+layout: post
+title: '[JS] [조건문] Switch 문'
+categories: js
+permalink: '/:categories/:year/:month/:day/:title/'
+# published: false
+# comments: true
+---
+
+{% include hits.md %}
+
+# Switch 문
+
+- 복수의 if 조건문을 switch문으로 바꿀 수 있다.
+- expression의 값이 value1이라면 statement1을 출력, value2이라면 statement2을 출력... case에 해당되지 않는다면 default값이 출력됨
+- break;문이 없다면, expression의 값이 value1라도 다음 value2로 비교를 계속 한다.
+
+```
+  switch (expression) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+  ...
+  case valueN:
+    statementN;
+    break;
+  default:
+    statementDefalut;
+    break;
+}
+```
+
+---
