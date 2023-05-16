@@ -1,0 +1,93 @@
+---
+layout: post
+title: '[JS] 연산자 Operators (산술, 단항, 할당, 논리, 동등 비교...)'
+categories: js
+permalink: '/:categories/:year/:month/:day/:title/'
+# published: false
+# comments: true
+---
+
+{% include hits.md %}
+
+# 연산자 Operators
+
+## 산술 연산자 (Arithmetic Operators)
+
+- +(더하기), -(빼기), \*(곱하기), /(나누기), %(나머지값), \*\* 지수(거듭제곱)
+
+```
+  console.log(5 + 2); // 7
+  console.log(5 - 2); // 3
+  console.log(5 * 2); // 10
+  console.log(5 / 2); // 2.5
+  console.log(5 % 2); // 1
+  console.log(5 ** 2); // 25
+```
+
+### + 연산자 주의
+
+- 숫자와 문자열을 더하면 문자열로 변환되어 출력된다.
+
+```
+  let text = '안'+'녕';
+  text = '1'+ 1;
+  console.log(text); // 11
+```
+
+## 단항 연산자 (Unary Operators)
+
+- +(양), -(음), !(부정)
+
+```
+  let a = 2;
+  a = -a; // -1 * 2
+  console.log(a); // -2
+  console.log(-a); // 2
+```
+
+- ! 부정연산자
+- !! 값을 boolean으로 변환해줌
+  - false, null, undefined, 0, NaN과 같은 falsy 값이면 false로 변환되고, 그 외의 값은 true로 변환
+
+```
+  let boolean = true;
+  console.log(boolean); // true
+  console.log(!boolean); // false
+```
+
+### 할당 연산자
+
+- 축약버전
+
+```
+  let a = 1;
+  a += 2; // a = a + 2;
+```
+
+## 증감 & 감소 연산자 (Increment & Decrement Operators)
+
+- ++a; a++; 연산자가 앞에 있는지 뒤에 있는지에 따라 다름
+- ++a : 값을 먼저 증가하고 연산을 함
+- a++ : 연산을 하고, 그 뒤에 값을 증가해줌
+
+```
+  let a = 2;
+  a++; // a = a + 1;
+  console.log(a); // 3
+  a--;
+  console.log(a); // 2
+```
+
+## 비교 연산자 (Relational Operators)
+
+- &nbsp;> (크다), <(작다), >=(크거나 같다), <=(작거나 같다)
+
+## 동등 비교 연산자 (Eqality Operators)
+
+- ==(값이 같음), !=(값이 다름), ===(값과 타입이 둘다 같음), !==(값과 타임이 다름)
+
+## 논리 연산자 (Logical Operators)
+
+- &&(그리고), <code style="background-color: transparent">||</code>(또는)
+
+---

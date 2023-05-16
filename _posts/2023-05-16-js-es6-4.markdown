@@ -1,0 +1,94 @@
+---
+layout: post
+title: '[JS] [반복문] for, while'
+categories: js
+permalink: '/:categories/:year/:month/:day/:title/'
+# published: false
+# comments: true
+---
+
+{% include hits.md %}
+
+# 반복문for
+
+- for(변수선언문; 조건식; 증감식){}
+
+```
+  for(let i = 0; i < 5; i++){
+    console.log(i);
+  }
+  // 0
+  // 1
+  // 2
+  // 3
+  // 4
+```
+
+## 반복문 제어 continue, break
+
+- break : 반복문 Stop 시킴
+
+```
+  for(let i = 0; i < 5; i++){
+   if(i == 2) {
+    console.log('i가 2이다.');
+    break;
+   }
+   console.log(i);
+  }
+  // 0
+  // 1
+  // 2
+  // i가 2이다. (3,4가 출력되지 않음)
+
+```
+
+- continue : 해당 반복문을 무시하고 다음 반복문을 실행시킴
+
+```
+  for(let i = 0; i < 5; i++){
+   if(i == 2) {
+    console.log('i가 2이다.');
+    continue;
+   }
+   console.log(i);
+  }
+  // 0
+  // 1
+  // i가 2이다.
+  // 3
+  // 4
+
+```
+
+# 반복문 while
+
+- while(조건){}
+- 조건이 false가 될때까지 계속 반복되어 실행함
+
+```
+  let num = 2;
+  while(num >= 0) {
+    console.log(num);
+    num--;
+  }
+  // 2
+  // 1
+  // 0
+
+```
+
+## do {} while {}
+
+- do while은 do는 무조건 실행하고 while문을 실행
+
+```
+  let isActive = false;
+  do {console.log('do 실행')}
+  while(isActive) {
+  }
+  // do 실행
+
+```
+
+---
