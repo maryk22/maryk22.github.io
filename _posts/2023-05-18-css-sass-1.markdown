@@ -1,0 +1,74 @@
+---
+layout: post
+title: '[CSS] VSCode SASS/SCSS 설정법'
+categories: css
+permalink: '/:categories/:year/:month/:day/:title/'
+# published: false
+# comments: true
+---
+
+{% include hits.md %}
+
+# VSCode Sass 사용법 및 설정법
+
+### VSCode Extensions - Sass, Live Sass Compiler
+
+![VSCode extesions](/assets/img/css/img_css_1_1.png 'VSCode extesions')
+
+- Live Sass Compiler 설치 시 하단에 Watch Sass 버튼이 생긴다.
+- SASS, SCSS사용시 버튼 클릭 시 css파일로 번들된다.
+  ![Watch Sass](/assets/img/css/img_css_1_2.png 'Watch Sass')
+
+### VSCode Setting
+
+- settings.json를 수정
+- **file > Preferences > Settings** OR **cmd + ,(Mac)** OR **Ctrl + ,(Window)**
+- User / Workspace로 나누어짐
+- User : VSCode 전체에 적용이 됨
+- Workspace : 해당 프로젝트에만 적용
+
+보통 필자는 SASS/SCSS를 사용하는 프로젝트에만 적용을 함<br><br>
+![workspace settings.json](/assets/img/css/img_css_1_3.png 'workspace settings.json')
+
+- 해당 코드를 복붙 후 저장
+
+```
+  {
+  // SASS 설정
+  // 포맷 방식 작성.
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    },
+    {
+      // 참조 문서에서 압축관련 확인
+      "format": "compressed",
+      // output 파일
+      "extensionName": ".min.css",
+      // output 파일경로
+      "savePath": "/assets/css"
+    }
+  ],
+  // 특정폴더를 제외한다. 폴더 내의 모든 sass/scss 파일을 무시한다.
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  // map 파일 사용 유무(Default : true) - 소스맵 사용안할 경우 false로 설정 [map] 파일 및 주석 생기지 않게 처리
+  "liveSassCompile.settings.generateMap": true,
+  // 자동 밴더 프리픽스 사용하게 해줌.
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
+}
+
+```
+
+![sass 설정](/assets/img/css/img_css_1_4.png 'sass 설정')
+
+### Watch Sass 실행
+
+- .sass, .scss파일에서 Watch Sass 클릭
+- 에러가 안나면 설정해 준 **savePath** 파일 위치에 css 파일이 생성됨
+  ![css 파일 생성](/assets/img/css/img_css_1_5.png 'css 파일 생성')
+
+<br>
+
+---
