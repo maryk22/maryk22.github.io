@@ -53,6 +53,8 @@ menu:
     url: /js/
   - title: Git
     url: /git/
+  - title: Portfolio
+    url: /portfolio/
   # - title: Etc
   #   url: /etc/
 
